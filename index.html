@@ -3,17 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin recipes</title>
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/restaurant.png" type="image/x-icon">
 </head>
 <body>
-    <h1><strong>Odin Recipes</strong></h1>
-    <img src="img/☁️ on Twitter.jpeg" alt="">
-    <h2><em>Recipes</em></h2>
-    <ul>
-   <li><a href="receita1.html" target="_blank" rel="noopener noreferrer"><em>Primeira receita</em></a></li>
-   <li><a href="receita2.html" target="_blank" rel="noopener noreferrer"><em>Segunda receita</em></a></li>
-   <li><a href="receita3.html" target="_blank" rel="noopener noreferrer"><em>Terceira receita</em></a></li>
-    </ul>
+    <header>
+        <div class="logo">
+            <img src="img/restaurant.png" alt="Odin Recipes Logo">
+        </div>
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <h1><strong>Odin Recipes</strong></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam amet aperiam incidunt? Necessitatibus doloribus ut pariatur quia accusantium debitis magni veniam molestias optio! Molestiae suscipit, quo veniam beatae delectus similique!</p>
+        <img src="img/☁️ on Twitter.jpeg" alt="Banner Image">
+    </section>
+    
+    <main>
+         <h2 class="h2"><em>Recipes</em></h2>
+        <section class="conteudo">
+            <div class="recipe">
+                <p>First recipe</p>
+                <a href="receita1.html" target="_blank" rel="noopener noreferrer">
+                    <img class="img1" src="img/Chilaquiles.png" alt="Chilaquiles Recipe">
+                </a>
+            </div>
+            <div class="recipe">
+                <p>Second recipe</p>
+                <a href="receita2.html" target="_blank" rel="noopener noreferrer">
+                    <img class="img1" src="img/Best Simple Tossed Green Salad.png" alt="Green Salad Recipe">
+                </a>
+            </div>
+            <div class="recipe">
+                <p>Third recipe</p>
+                <a href="receita3.html" target="_blank" rel="noopener noreferrer">
+                    <img class="img1" src="img/Grilled Tri-Tip Steak Marinade – Modern Honey.jpeg" alt="Tri-Tip Steak Recipe">
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer-navigation">
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2023 Exemplo de Site. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
